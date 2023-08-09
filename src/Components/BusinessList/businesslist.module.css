@@ -1,0 +1,9 @@
+.business_list {
+    max-width: 65rem;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}

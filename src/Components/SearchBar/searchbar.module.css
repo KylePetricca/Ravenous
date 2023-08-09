@@ -1,0 +1,108 @@
+.logo {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0.8rem;
+  background-color: #c49849;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  background-image: url(./IMG/background_search_desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5rem;
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.sorting_options ul {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    flex-wrap: wrap;
+  }
+  
+  .sorting_options li {
+    cursor: pointer;
+    width: 4.33rem;
+    border-bottom: 1px solid #fff;
+    padding: 0 2.58rem 1rem 2.58rem;
+    line-height: 1.13;
+    text-align: center;
+    font-weight: 700;
+    transition: color 0.25s;
+    list-style: none;
+  }
+  
+  .sorting_options li:hover {
+    color: #d4cfcf;
+  }
+  
+  .sorting_options li.active,
+  .sorting_options li.active:hover {
+    border-bottom: 1px solid #f0c36c;
+    color: #f0c36c;
+  }
+
+  .inputs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+  }
+
+.inputs input {
+  width: 21rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-size: 0.77rem;
+  font-weight: 500;
+}
+
+
+  .submit {
+    text-align: center;
+  }
+  
+  .submit a {
+    border-radius: 4px;
+    padding: 0.72rem 1.7rem;
+    background-color: #cca353;
+    color: #ffffff;
+    font-weight: 600;
+    transition: background-color 0.5s;
+  }
+  
+  .submit a:hover {
+    cursor: pointer;
+    background-color: #a7874b;
+  }
+  
+  @media only screen and (max-width: 560px) {
+    .header {
+      background-image: url("./IMG/background_search_mobile.jpg");
+      background-size: cover;
+    }
+  
+    .sorting_options  ul {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  
+    .inputs {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .inputs input {
+      margin-right: 0;
+      margin-bottom: 0.86rem;
+    }
+  }

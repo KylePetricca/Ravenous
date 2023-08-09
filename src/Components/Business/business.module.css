@@ -1,0 +1,58 @@
+ 
+/* * {
+    outline: 1px red solid;
+}  */
+
+.business_card {
+    width: 19.5rem;
+}
+
+.business_header {
+    font-size: 1.5rem;
+    margin-bottom: 0.65rem;
+}
+
+.business_img_container {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.business_img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.business_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.business_info {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.business_address {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.business_category {
+    color: #A88441;
+    font-size: 1.3rem;
+}
+
+.business_rating {
+    color: #A88441;
+    font-size: 1rem;
+}
+
+/* C49849 */
